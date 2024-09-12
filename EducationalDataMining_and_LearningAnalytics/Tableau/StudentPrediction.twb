@@ -1,0 +1,1612 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <SavingAnalyticObjects />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='student_prediction' inline='true' name='federated.090k0ot08pn2ua13lv2r207v23we' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='student_prediction' name='textscan.1ufuvn91qcb8pb1asr5ej0p5qas7'>
+            <connection class='textscan' directory='D:/Downloads/SEMESTER_H/e-Learning' filename='student_prediction.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ufuvn91qcb8pb1asr5ej0p5qas7' name='student_prediction.csv' table='[student_prediction#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='el_GR'>
+            <column datatype='string' name='STUDENTID' ordinal='0' />
+            <column datatype='integer' name='AGE' ordinal='1' />
+            <column datatype='integer' name='GENDER' ordinal='2' />
+            <column datatype='integer' name='HS_TYPE' ordinal='3' />
+            <column datatype='integer' name='SCHOLARSHIP' ordinal='4' />
+            <column datatype='integer' name='WORK' ordinal='5' />
+            <column datatype='integer' name='ACTIVITY' ordinal='6' />
+            <column datatype='integer' name='PARTNER' ordinal='7' />
+            <column datatype='integer' name='SALARY' ordinal='8' />
+            <column datatype='integer' name='TRANSPORT' ordinal='9' />
+            <column datatype='integer' name='LIVING' ordinal='10' />
+            <column datatype='integer' name='MOTHER_EDU' ordinal='11' />
+            <column datatype='integer' name='FATHER_EDU' ordinal='12' />
+            <column datatype='integer' name='#_SIBLINGS' ordinal='13' />
+            <column datatype='integer' name='KIDS' ordinal='14' />
+            <column datatype='integer' name='MOTHER_JOB' ordinal='15' />
+            <column datatype='integer' name='FATHER_JOB' ordinal='16' />
+            <column datatype='integer' name='STUDY_HRS' ordinal='17' />
+            <column datatype='integer' name='READ_FREQ' ordinal='18' />
+            <column datatype='integer' name='READ_FREQ_SCI' ordinal='19' />
+            <column datatype='integer' name='ATTEND_DEPT' ordinal='20' />
+            <column datatype='integer' name='IMPACT' ordinal='21' />
+            <column datatype='integer' name='ATTEND' ordinal='22' />
+            <column datatype='integer' name='PREP_STUDY' ordinal='23' />
+            <column datatype='integer' name='PREP_EXAM' ordinal='24' />
+            <column datatype='integer' name='NOTES' ordinal='25' />
+            <column datatype='integer' name='LISTENS' ordinal='26' />
+            <column datatype='integer' name='LIKES_DISCUSS' ordinal='27' />
+            <column datatype='integer' name='CLASSROOM' ordinal='28' />
+            <column datatype='integer' name='CUML_GPA' ordinal='29' />
+            <column datatype='integer' name='EXP_GPA' ordinal='30' />
+            <column datatype='integer' name='COURSE ID' ordinal='31' />
+            <column datatype='integer' name='GRADE' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ufuvn91qcb8pb1asr5ej0p5qas7' name='student_prediction.csv' table='[student_prediction#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='el_GR'>
+            <column datatype='string' name='STUDENTID' ordinal='0' />
+            <column datatype='integer' name='AGE' ordinal='1' />
+            <column datatype='integer' name='GENDER' ordinal='2' />
+            <column datatype='integer' name='HS_TYPE' ordinal='3' />
+            <column datatype='integer' name='SCHOLARSHIP' ordinal='4' />
+            <column datatype='integer' name='WORK' ordinal='5' />
+            <column datatype='integer' name='ACTIVITY' ordinal='6' />
+            <column datatype='integer' name='PARTNER' ordinal='7' />
+            <column datatype='integer' name='SALARY' ordinal='8' />
+            <column datatype='integer' name='TRANSPORT' ordinal='9' />
+            <column datatype='integer' name='LIVING' ordinal='10' />
+            <column datatype='integer' name='MOTHER_EDU' ordinal='11' />
+            <column datatype='integer' name='FATHER_EDU' ordinal='12' />
+            <column datatype='integer' name='#_SIBLINGS' ordinal='13' />
+            <column datatype='integer' name='KIDS' ordinal='14' />
+            <column datatype='integer' name='MOTHER_JOB' ordinal='15' />
+            <column datatype='integer' name='FATHER_JOB' ordinal='16' />
+            <column datatype='integer' name='STUDY_HRS' ordinal='17' />
+            <column datatype='integer' name='READ_FREQ' ordinal='18' />
+            <column datatype='integer' name='READ_FREQ_SCI' ordinal='19' />
+            <column datatype='integer' name='ATTEND_DEPT' ordinal='20' />
+            <column datatype='integer' name='IMPACT' ordinal='21' />
+            <column datatype='integer' name='ATTEND' ordinal='22' />
+            <column datatype='integer' name='PREP_STUDY' ordinal='23' />
+            <column datatype='integer' name='PREP_EXAM' ordinal='24' />
+            <column datatype='integer' name='NOTES' ordinal='25' />
+            <column datatype='integer' name='LISTENS' ordinal='26' />
+            <column datatype='integer' name='LIKES_DISCUSS' ordinal='27' />
+            <column datatype='integer' name='CLASSROOM' ordinal='28' />
+            <column datatype='integer' name='CUML_GPA' ordinal='29' />
+            <column datatype='integer' name='EXP_GPA' ordinal='30' />
+            <column datatype='integer' name='COURSE ID' ordinal='31' />
+            <column datatype='integer' name='GRADE' ordinal='32' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;el&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;el_GR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STUDENTID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STUDENTID]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>STUDENTID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AGE]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>AGE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENDER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GENDER]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>GENDER</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HS_TYPE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HS_TYPE]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>HS_TYPE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SCHOLARSHIP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SCHOLARSHIP]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>SCHOLARSHIP</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WORK]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>WORK</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVITY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ACTIVITY]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>ACTIVITY</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PARTNER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PARTNER]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>PARTNER</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SALARY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SALARY]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>SALARY</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANSPORT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TRANSPORT]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>TRANSPORT</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LIVING</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LIVING]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>LIVING</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MOTHER_EDU</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MOTHER_EDU]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>MOTHER_EDU</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FATHER_EDU</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FATHER_EDU]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>FATHER_EDU</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>#_SIBLINGS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[#_SIBLINGS]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>#_SIBLINGS</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KIDS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KIDS]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>KIDS</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MOTHER_JOB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MOTHER_JOB]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>MOTHER_JOB</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FATHER_JOB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FATHER_JOB]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>FATHER_JOB</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STUDY_HRS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[STUDY_HRS]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>STUDY_HRS</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>READ_FREQ</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[READ_FREQ]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>READ_FREQ</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>READ_FREQ_SCI</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[READ_FREQ_SCI]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>READ_FREQ_SCI</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTEND_DEPT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ATTEND_DEPT]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>ATTEND_DEPT</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IMPACT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IMPACT]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>IMPACT</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ATTEND</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ATTEND]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>ATTEND</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PREP_STUDY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PREP_STUDY]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>PREP_STUDY</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PREP_EXAM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PREP_EXAM]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>PREP_EXAM</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOTES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NOTES]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>NOTES</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LISTENS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LISTENS]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>LISTENS</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LIKES_DISCUSS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LIKES_DISCUSS]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>LIKES_DISCUSS</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CLASSROOM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CLASSROOM]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>CLASSROOM</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CUML_GPA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CUML_GPA]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>CUML_GPA</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EXP_GPA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EXP_GPA]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>EXP_GPA</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COURSE ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COURSE ID]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>COURSE ID</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GRADE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GRADE]</local-name>
+            <parent-name>[student_prediction.csv]</parent-name>
+            <remote-alias>GRADE</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[COURSE ID]' role='dimension' type='ordinal' />
+      <column aggregation='Count' datatype='integer' datatype-customized='true' name='[GRADE]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[STUDY_HRS]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='student_prediction.csv' datatype='table' name='[__tableau_internal_object_id__].[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]' role='measure' type='quantitative' />
+      <column-instance column='[STUDY_HRS]' derivation='Sum' name='[sum:STUDY_HRS:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/dgour/AppData/Local/Temp/TableauTemp/#TableauTemp_14hvu681yht4ln165z8c80g8jooj.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/07/2024 02:44:54 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>STUDENTID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STUDENTID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STUDENTID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>145</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AGE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AGE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGE</remote-alias>
+              <ordinal>1</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GENDER</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[GENDER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GENDER</remote-alias>
+              <ordinal>2</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HS_TYPE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[HS_TYPE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HS_TYPE</remote-alias>
+              <ordinal>3</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SCHOLARSHIP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SCHOLARSHIP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SCHOLARSHIP</remote-alias>
+              <ordinal>4</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WORK</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[WORK]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WORK</remote-alias>
+              <ordinal>5</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ACTIVITY</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ACTIVITY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ACTIVITY</remote-alias>
+              <ordinal>6</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PARTNER</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PARTNER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PARTNER</remote-alias>
+              <ordinal>7</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SALARY</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SALARY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SALARY</remote-alias>
+              <ordinal>8</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANSPORT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TRANSPORT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANSPORT</remote-alias>
+              <ordinal>9</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LIVING</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[LIVING]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LIVING</remote-alias>
+              <ordinal>10</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MOTHER_EDU</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MOTHER_EDU]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MOTHER_EDU</remote-alias>
+              <ordinal>11</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FATHER_EDU</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[FATHER_EDU]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FATHER_EDU</remote-alias>
+              <ordinal>12</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>#_SIBLINGS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[#_SIBLINGS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>#_SIBLINGS</remote-alias>
+              <ordinal>13</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>KIDS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[KIDS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>KIDS</remote-alias>
+              <ordinal>14</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MOTHER_JOB</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MOTHER_JOB]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MOTHER_JOB</remote-alias>
+              <ordinal>15</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FATHER_JOB</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[FATHER_JOB]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FATHER_JOB</remote-alias>
+              <ordinal>16</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STUDY_HRS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[STUDY_HRS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STUDY_HRS</remote-alias>
+              <ordinal>17</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>READ_FREQ</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[READ_FREQ]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>READ_FREQ</remote-alias>
+              <ordinal>18</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>READ_FREQ_SCI</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[READ_FREQ_SCI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>READ_FREQ_SCI</remote-alias>
+              <ordinal>19</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ATTEND_DEPT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ATTEND_DEPT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ATTEND_DEPT</remote-alias>
+              <ordinal>20</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IMPACT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IMPACT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IMPACT</remote-alias>
+              <ordinal>21</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ATTEND</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ATTEND]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ATTEND</remote-alias>
+              <ordinal>22</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PREP_STUDY</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PREP_STUDY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PREP_STUDY</remote-alias>
+              <ordinal>23</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PREP_EXAM</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PREP_EXAM]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PREP_EXAM</remote-alias>
+              <ordinal>24</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NOTES</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NOTES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NOTES</remote-alias>
+              <ordinal>25</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LISTENS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[LISTENS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LISTENS</remote-alias>
+              <ordinal>26</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LIKES_DISCUSS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[LIKES_DISCUSS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LIKES_DISCUSS</remote-alias>
+              <ordinal>27</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CLASSROOM</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CLASSROOM]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CLASSROOM</remote-alias>
+              <ordinal>28</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CUML_GPA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CUML_GPA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CUML_GPA</remote-alias>
+              <ordinal>29</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EXP_GPA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[EXP_GPA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EXP_GPA</remote-alias>
+              <ordinal>30</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>COURSE ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[COURSE ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>COURSE ID</remote-alias>
+              <ordinal>31</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GRADE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[GRADE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GRADE</remote-alias>
+              <ordinal>32</ordinal>
+              <family>student_prediction.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student_prediction.csv_14E650BE07E149DC82B59B279C1EB378]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Greece&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <analytic-model>
+        <name>
+          <field name='[AnalyticModel:{aa9e7313-662e-4e09-8ce4-50d85aa2694b}]' />
+        </name>
+        <analytic-model-specifications class='cluster-specifications'>
+          <analysis-fields>
+            <field name='[federated.090k0ot08pn2ua13lv2r207v23we].[sum:STUDY_HRS:qk]' />
+          </analysis-fields>
+          <filter-fields />
+          <lod-fields />
+          <number-of-desired-clusters>3</number-of-desired-clusters>
+          <is-dissagregate>false</is-dissagregate>
+        </analytic-model-specifications>
+        <result-fields />
+      </analytic-model>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='student_prediction.csv' id='student_prediction.csv_14E650BE07E149DC82B59B279C1EB378'>
+            <properties context=''>
+              <relation connection='textscan.1ufuvn91qcb8pb1asr5ej0p5qas7' name='student_prediction.csv' table='[student_prediction#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='el_GR'>
+                  <column datatype='string' name='STUDENTID' ordinal='0' />
+                  <column datatype='integer' name='AGE' ordinal='1' />
+                  <column datatype='integer' name='GENDER' ordinal='2' />
+                  <column datatype='integer' name='HS_TYPE' ordinal='3' />
+                  <column datatype='integer' name='SCHOLARSHIP' ordinal='4' />
+                  <column datatype='integer' name='WORK' ordinal='5' />
+                  <column datatype='integer' name='ACTIVITY' ordinal='6' />
+                  <column datatype='integer' name='PARTNER' ordinal='7' />
+                  <column datatype='integer' name='SALARY' ordinal='8' />
+                  <column datatype='integer' name='TRANSPORT' ordinal='9' />
+                  <column datatype='integer' name='LIVING' ordinal='10' />
+                  <column datatype='integer' name='MOTHER_EDU' ordinal='11' />
+                  <column datatype='integer' name='FATHER_EDU' ordinal='12' />
+                  <column datatype='integer' name='#_SIBLINGS' ordinal='13' />
+                  <column datatype='integer' name='KIDS' ordinal='14' />
+                  <column datatype='integer' name='MOTHER_JOB' ordinal='15' />
+                  <column datatype='integer' name='FATHER_JOB' ordinal='16' />
+                  <column datatype='integer' name='STUDY_HRS' ordinal='17' />
+                  <column datatype='integer' name='READ_FREQ' ordinal='18' />
+                  <column datatype='integer' name='READ_FREQ_SCI' ordinal='19' />
+                  <column datatype='integer' name='ATTEND_DEPT' ordinal='20' />
+                  <column datatype='integer' name='IMPACT' ordinal='21' />
+                  <column datatype='integer' name='ATTEND' ordinal='22' />
+                  <column datatype='integer' name='PREP_STUDY' ordinal='23' />
+                  <column datatype='integer' name='PREP_EXAM' ordinal='24' />
+                  <column datatype='integer' name='NOTES' ordinal='25' />
+                  <column datatype='integer' name='LISTENS' ordinal='26' />
+                  <column datatype='integer' name='LIKES_DISCUSS' ordinal='27' />
+                  <column datatype='integer' name='CLASSROOM' ordinal='28' />
+                  <column datatype='integer' name='CUML_GPA' ordinal='29' />
+                  <column datatype='integer' name='EXP_GPA' ordinal='30' />
+                  <column datatype='integer' name='COURSE ID' ordinal='31' />
+                  <column datatype='integer' name='GRADE' ordinal='32' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Sheet1</run>
+            <run>Æ&#10;</run>
+            <run italic='true' underline='true'>Weekly study hours of each student</run>
+            <run><![CDATA[: (1: None, 2: <5 hours, 3: 6-10 hours, 4: 11-20 hours, 5: more than 20 hours)]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='student_prediction' name='federated.090k0ot08pn2ua13lv2r207v23we' />
+          </datasources>
+          <datasource-dependencies datasource='federated.090k0ot08pn2ua13lv2r207v23we'>
+            <column auto-hidden='true' caption='Clusters' datatype='integer' hidden='true' is-adhoc-cluster='true' name='[AdhocCluster:1]' parent-model='[AnalyticModel:{aa9e7313-662e-4e09-8ce4-50d85aa2694b}]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='-1' value='Cluster Outliers' />
+                <alias key='0' value='Not Clustered' />
+                <alias key='1' value='Cluster 1' />
+                <alias key='2' value='Cluster 2' />
+                <alias key='3' value='Cluster 3' />
+                <alias key='4' value='Cluster 4' />
+                <alias key='5' value='Cluster 5' />
+                <alias key='6' value='Cluster 6' />
+                <alias key='7' value='Cluster 7' />
+                <alias key='8' value='Cluster 8' />
+                <alias key='9' value='Cluster 9' />
+                <alias key='10' value='Cluster 10' />
+                <alias key='11' value='Cluster 11' />
+                <alias key='12' value='Cluster 12' />
+                <alias key='13' value='Cluster 13' />
+                <alias key='14' value='Cluster 14' />
+                <alias key='15' value='Cluster 15' />
+                <alias key='16' value='Cluster 16' />
+                <alias key='17' value='Cluster 17' />
+                <alias key='18' value='Cluster 18' />
+                <alias key='19' value='Cluster 19' />
+                <alias key='20' value='Cluster 20' />
+                <alias key='21' value='Cluster 21' />
+                <alias key='22' value='Cluster 22' />
+                <alias key='23' value='Cluster 23' />
+                <alias key='24' value='Cluster 24' />
+                <alias key='25' value='Cluster 25' />
+                <alias key='26' value='Cluster 26' />
+                <alias key='27' value='Cluster 27' />
+                <alias key='28' value='Cluster 28' />
+                <alias key='29' value='Cluster 29' />
+                <alias key='30' value='Cluster 30' />
+                <alias key='31' value='Cluster 31' />
+                <alias key='32' value='Cluster 32' />
+                <alias key='33' value='Cluster 33' />
+                <alias key='34' value='Cluster 34' />
+                <alias key='35' value='Cluster 35' />
+                <alias key='36' value='Cluster 36' />
+                <alias key='37' value='Cluster 37' />
+                <alias key='38' value='Cluster 38' />
+                <alias key='39' value='Cluster 39' />
+                <alias key='40' value='Cluster 40' />
+                <alias key='41' value='Cluster 41' />
+                <alias key='42' value='Cluster 42' />
+                <alias key='43' value='Cluster 43' />
+                <alias key='44' value='Cluster 44' />
+                <alias key='45' value='Cluster 45' />
+                <alias key='46' value='Cluster 46' />
+                <alias key='47' value='Cluster 47' />
+                <alias key='48' value='Cluster 48' />
+                <alias key='49' value='Cluster 49' />
+                <alias key='50' value='Cluster 50' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[STUDENTID]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[STUDY_HRS]' role='measure' type='quantitative' />
+            <column-instance column='[AdhocCluster:1]' derivation='None' is-adhoc-cluster='true' name='[none:AdhocCluster:1:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[STUDENTID]' derivation='None' name='[none:STUDENTID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STUDY_HRS]' derivation='Sum' name='[sum:STUDY_HRS:qk]' pivot='key' type='quantitative' />
+            <style>
+              <style-rule element='mark'>
+                <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
+                  <map to='#4e79a7'>
+                    <bucket>1</bucket>
+                  </map>
+                  <map to='#e15759'>
+                    <bucket>3</bucket>
+                  </map>
+                  <map to='#f28e2b'>
+                    <bucket>2</bucket>
+                  </map>
+                </encoding>
+              </style-rule>
+            </style>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.090k0ot08pn2ua13lv2r207v23we].[none:AdhocCluster:1:ok]'>
+            <groupfilter function='level-members' level='[none:AdhocCluster:1:ok]' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.090k0ot08pn2ua13lv2r207v23we].[none:STUDENTID:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.090k0ot08pn2ua13lv2r207v23we].[sum:STUDY_HRS:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.090k0ot08pn2ua13lv2r207v23we].[none:AdhocCluster:1:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.090k0ot08pn2ua13lv2r207v23we].[sum:STUDY_HRS:qk]' field-type='quantitative' max='8' min='0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.090k0ot08pn2ua13lv2r207v23we].[sum:STUDY_HRS:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='5' />
+            <format attr='border-color' value='#e60000' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-size' value='12' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.090k0ot08pn2ua13lv2r207v23we].[none:AdhocCluster:1:ok]' />
+              <lod column='[federated.090k0ot08pn2ua13lv2r207v23we].[sum:STUDY_HRS:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-family' value='Times New Roman' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='10' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.637182354927063' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#4e79a7' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.090k0ot08pn2ua13lv2r207v23we].[sum:STUDY_HRS:qk]</rows>
+        <cols>[federated.090k0ot08pn2ua13lv2r207v23we].[none:STUDENTID:nk]</cols>
+      </table>
+      <simple-id uuid='{1B15F469-4776-4481-837F-C0CA5C81250B}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F7B14C0B-75A9-4602-B1D2-FA8DE19EEFEB}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.090k0ot08pn2ua13lv2r207v23we].[none:AdhocCluster:1:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.090k0ot08pn2ua13lv2r207v23we].[:Measure Names]</field>
+            <field>[federated.090k0ot08pn2ua13lv2r207v23we].[none:AdhocCluster:1:ok]</field>
+            <field>[federated.090k0ot08pn2ua13lv2r207v23we].[none:STUDENTID:nk]</field>
+            <field>[federated.090k0ot08pn2ua13lv2r207v23we].[none:STUDY_HRS:qk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='1' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{A1A32E36-C093-4BD5-A3DE-C3F4EB37BDE1}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{90FBC9CC-DE3A-4393-BC73-5E6ABA653A58}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
